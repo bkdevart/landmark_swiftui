@@ -13,6 +13,8 @@
 		CA632C30249FDC7D00483DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA632C2F249FDC7D00483DBA /* Assets.xcassets */; };
 		CA632C33249FDC7D00483DBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA632C32249FDC7D00483DBA /* Preview Assets.xcassets */; };
 		CA632C36249FDC7D00483DBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA632C34249FDC7D00483DBA /* LaunchScreen.storyboard */; };
+		CA6A8CBB24CD423A002869CF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A8CB924CD423A002869CF /* Data.swift */; };
+		CA6A8CBC24CD423A002869CF /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A8CBA24CD423A002869CF /* Landmark.swift */; };
 		CAC872B6249FF3CE00611FD5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC872B5249FF3CE00611FD5 /* CircleImage.swift */; };
 		CAC872B8249FF5B200611FD5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC872B7249FF5B200611FD5 /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 		CA632C32249FDC7D00483DBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA632C35249FDC7D00483DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA632C37249FDC7D00483DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6A8CB924CD423A002869CF /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CA6A8CBA24CD423A002869CF /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		CAC872B5249FF3CE00611FD5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		CAC872B7249FF5B200611FD5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +64,7 @@
 		CA632C28249FDC7700483DBA /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				CA6A8CB824CD41E7002869CF /* Models */,
 				CA632C29249FDC7700483DBA /* AppDelegate.swift */,
 				CA632C2B249FDC7700483DBA /* SceneDelegate.swift */,
 				CA632C2D249FDC7700483DBA /* ContentView.swift */,
@@ -79,6 +84,15 @@
 				CA632C32249FDC7D00483DBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA6A8CB824CD41E7002869CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A8CB924CD423A002869CF /* Data.swift */,
+				CA6A8CBA24CD423A002869CF /* Landmark.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6A8CBC24CD423A002869CF /* Landmark.swift in Sources */,
 				CA632C2A249FDC7700483DBA /* AppDelegate.swift in Sources */,
+				CA6A8CBB24CD423A002869CF /* Data.swift in Sources */,
 				CAC872B6249FF3CE00611FD5 /* CircleImage.swift in Sources */,
 				CAC872B8249FF5B200611FD5 /* MapView.swift in Sources */,
 				CA632C2C249FDC7700483DBA /* SceneDelegate.swift in Sources */,
