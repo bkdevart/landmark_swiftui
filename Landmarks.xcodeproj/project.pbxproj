@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA3020A824CFE02300B92CE8 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3020A724CFE02300B92CE8 /* Badge.swift */; };
+		CA3020AA24CFE38300B92CE8 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3020A924CFE38300B92CE8 /* HexagonParameters.swift */; };
 		CA632C2A249FDC7700483DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA632C29249FDC7700483DBA /* AppDelegate.swift */; };
 		CA632C2C249FDC7700483DBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA632C2B249FDC7700483DBA /* SceneDelegate.swift */; };
 		CA632C2E249FDC7700483DBA /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA632C2D249FDC7700483DBA /* LandmarkDetail.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		CA3020A724CFE02300B92CE8 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		CA3020A924CFE38300B92CE8 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		CA632C26249FDC7700483DBA /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA632C29249FDC7700483DBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA632C2B249FDC7700483DBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				CA632C2B249FDC7700483DBA /* SceneDelegate.swift */,
 				CA632C2D249FDC7700483DBA /* LandmarkDetail.swift */,
 				CA3020A724CFE02300B92CE8 /* Badge.swift */,
+				CA3020A924CFE38300B92CE8 /* HexagonParameters.swift */,
 				CAD930EF24CD5746003A087A /* LandmarkRow.swift */,
 				CAD930F124CDAA70003A087A /* LandmarkList.swift */,
 				CA8B263C24CE7ABE0094E81B /* UserData.swift */,
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3020AA24CFE38300B92CE8 /* HexagonParameters.swift in Sources */,
 				CA6A8CBC24CD423A002869CF /* Landmark.swift in Sources */,
 				CA632C2A249FDC7700483DBA /* AppDelegate.swift in Sources */,
 				CA3020A824CFE02300B92CE8 /* Badge.swift in Sources */,
