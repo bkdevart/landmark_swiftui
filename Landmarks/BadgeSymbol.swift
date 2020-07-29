@@ -42,7 +42,7 @@ struct BadgeSymbol: View {
             }
             .fill(Self.symbolColor)
         }
-    }
+    } 
 }
 
 struct BadgeSymbol_Previews: PreviewProvider {
