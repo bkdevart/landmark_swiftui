@@ -1,10 +1,9 @@
-//
-//  ContentView.swift
-//  Landmarks
-//
-//  Created by Brandon Knox on 6/21/20.
-//  Copyright © 2020 Brandon Knox. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing the details for a landmark.
+*/
 
 import SwiftUI
 
@@ -23,7 +22,7 @@ struct LandmarkDetail: View {
                 .frame(height: 300)
             
             CircleImage(image: landmark.image)
-                .offset(y: -130)
+                .offset(x: 0, y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
@@ -32,9 +31,11 @@ struct LandmarkDetail: View {
                         .font(.title)
                     
                     Button(action: {
-                        self.userData.landmarks[self.landmarkIndex].isFavorite.toggle()
+                        self.userData.landmarks[self.landmarkIndex]
+                            .isFavorite.toggle()
                     }) {
-                        if self.userData.landmarks[self.landmarkIndex].isFavorite {
+                        if self.userData.landmarks[self.landmarkIndex]
+                            .isFavorite {
                             Image(systemName: "star.fill")
                                 .foregroundColor(Color.yellow)
                         } else {
@@ -56,13 +57,13 @@ struct LandmarkDetail: View {
             
             Spacer()
         }
-        .navigationBarTitle(Text(landmark.name), displayMode: .inline)
     }
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail(landmark: landmarkData[0])
-            .environmentObject(UserData())
+        let userData = UserData()
+        return LandmarkDetail(landmark: userData.landmarks[0])
+            .environmentObject(userData)
     }
 }
