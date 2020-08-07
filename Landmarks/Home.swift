@@ -1,3 +1,10 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing featured landmarks above a list of all of the landmarks.
+*/
+
 import SwiftUI
 
 struct CategoryHome: View {
@@ -22,7 +29,7 @@ struct CategoryHome: View {
                 .padding()
         }
     }
-    
+
     var body: some View {
         NavigationView {
             List {
@@ -60,5 +67,6 @@ struct FeaturedLandmarks: View {
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHome()
+            .environmentObject(UserData())
     }
 }
