@@ -47,11 +47,12 @@
 		B7D587D222A0892C006E8DCF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587D122A0892C006E8DCF /* Home.swift */; };
 		B7D587D422A08965006E8DCF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587D322A08965006E8DCF /* CategoryRow.swift */; };
 		B7D587D622A08C97006E8DCF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587D522A08C97006E8DCF /* Profile.swift */; };
+		CA70D61024DD817F0084882F /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA70D60F24DD817F0084882F /* ProfileHost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C249B054B1162DF28CD504A /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		9468E2AE3DC3F388E84A29BD /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		8C249B054B1162DF28CD504A /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		9468E2AE3DC3F388E84A29BD /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		B7310DD0229F6839001079B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		B7310DD2229F6CA9001079B9 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +96,7 @@
 		B7D587D322A08965006E8DCF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		B7D587D522A08C97006E8DCF /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		C4E4AAA0C4E4035000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CA70D60F24DD817F0084882F /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		B7394864229F194000C47603 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				CA70D60E24DD81600084882F /* Profile */,
 				B739487E229F282200C47603 /* Models */,
 				B7394865229F194000C47603 /* AppDelegate.swift */,
 				B7394867229F194000C47603 /* SceneDelegate.swift */,
@@ -222,6 +225,14 @@
 				B73948A2229F3E2200C47603 /* charleyrivers.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA70D60E24DD81600084882F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CA70D60F24DD817F0084882F /* ProfileHost.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +323,7 @@
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
 				B7310DD3229F6CA9001079B9 /* Badge.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
+				CA70D61024DD817F0084882F /* ProfileHost.swift in Sources */,
 				B7D587D622A08C97006E8DCF /* Profile.swift in Sources */,
 				B7D587B8229F826D006E8DCF /* GraphCapsule.swift in Sources */,
 				B7D587D422A08965006E8DCF /* CategoryRow.swift in Sources */,
