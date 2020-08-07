@@ -49,6 +49,7 @@
 		B7D587D622A08C97006E8DCF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587D522A08C97006E8DCF /* Profile.swift */; };
 		CA70D61024DD817F0084882F /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA70D60F24DD817F0084882F /* ProfileHost.swift */; };
 		CA70D61224DD885E0084882F /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA70D61124DD885E0084882F /* ProfileSummary.swift */; };
+		CA70D61424DE0A290084882F /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA70D61324DE0A290084882F /* HikeBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,7 @@
 		C4E4AAA0C4E4035000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CA70D60F24DD817F0084882F /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		CA70D61124DD885E0084882F /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		CA70D61324DE0A290084882F /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 				B7D587AD229F7382006E8DCF /* BadgeBackground.swift */,
 				B7D587BD229F82FF006E8DCF /* HikeGraph.swift */,
 				B7D587B7229F826D006E8DCF /* GraphCapsule.swift */,
+				CA70D61324DE0A290084882F /* HikeBadge.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				B73948A1229F2E1F00C47603 /* LandmarkList.swift in Sources */,
 				B7D587B0229F73C1006E8DCF /* BadgeSymbol.swift in Sources */,
 				B7D587B2229F7406006E8DCF /* RotatedBadgeSymbol.swift in Sources */,
+				CA70D61424DE0A290084882F /* HikeBadge.swift in Sources */,
 				B7D587D222A0892C006E8DCF /* Home.swift in Sources */,
 				B7D587BE229F82FF006E8DCF /* HikeGraph.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
