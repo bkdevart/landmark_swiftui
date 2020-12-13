@@ -1,10 +1,9 @@
-//
-//  ProfileHost.swift
-//  Landmarks
-//
-//  Created by Brandon Knox on 12/13/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that hosts the profile viewer and editor.
+*/
 
 import SwiftUI
 
@@ -22,9 +21,7 @@ struct ProfileHost: View {
                         editMode?.animation().wrappedValue = .inactive
                     }
                 }
-                
                 Spacer()
-                
                 EditButton()
             }
 

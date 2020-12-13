@@ -1,10 +1,9 @@
-//
-//  HikeBadge.swift
-//  Landmarks
-//
-//  Created by Brandon Knox on 12/13/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that shows a badge for hiking.
+*/
 
 import SwiftUI
 
