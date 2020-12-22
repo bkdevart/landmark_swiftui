@@ -1,4 +1,3 @@
-# Working with UI Controls
-Apple-created tutorial, covering interfaces designed in SwiftUI.
+# Completed Project: Working with UI Controls
 
-Learning native app SwiftUI development - [Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls) tutorial.
+Explore the completed project for the [Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls) tutorial.
